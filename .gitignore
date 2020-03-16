@@ -6,3 +6,5 @@
 /Extentions/Refit.Extention/bin/Debug/netstandard2.0
 /.vs
 /Extentions/.vs/Extentions/v16
+/src/Extentions/.vs/Extentions/v16/Server/sqlite3
+/src/Extentions/Refit.Extention/obj
