@@ -3,3 +3,6 @@
 ################################################################################
 
 /Extentions/Refit.Extention/obj
+/Extentions/Refit.Extention/bin/Debug/netstandard2.0
+/.vs
+/Extentions/.vs/Extentions/v16
