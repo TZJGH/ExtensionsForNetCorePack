@@ -1,0 +1,9 @@
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\bin\Debug\netstandard2.0\Redis.Extention.deps.json
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\bin\Debug\netstandard2.0\Redis.Extention.dll
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.csprojAssemblyReference.cache
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.AssemblyInfoInputs.cache
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.AssemblyInfo.cs
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\bin\Debug\netstandard2.0\Redis.Extention.pdb
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.csproj.CoreCompileInputs.cache
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.dll
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\Redis.Extention\obj\Debug\netstandard2.0\Redis.Extention.pdb

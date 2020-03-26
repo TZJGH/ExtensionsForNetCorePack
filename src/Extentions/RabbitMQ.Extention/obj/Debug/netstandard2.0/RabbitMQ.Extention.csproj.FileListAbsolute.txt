@@ -1,0 +1,9 @@
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\bin\Debug\netstandard2.0\RabbitMQ.Extention.deps.json
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\bin\Debug\netstandard2.0\RabbitMQ.Extention.dll
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.AssemblyInfoInputs.cache
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.AssemblyInfo.cs
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\bin\Debug\netstandard2.0\RabbitMQ.Extention.pdb
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.dll
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.pdb
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.csprojAssemblyReference.cache
+E:\Repos\TZJGH\ExtensionsForNetCorePack\src\Extentions\RabbitMQ.Extention\obj\Debug\netstandard2.0\RabbitMQ.Extention.csproj.CoreCompileInputs.cache

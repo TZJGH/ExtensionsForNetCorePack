@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit.Extention", "Refit.Extention\Refit.Extention.csproj", "{198D8FFB-F387-418A-9EB0-EE7FB083DAC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refit.Extention", "Refit.Extention\Refit.Extention.csproj", "{198D8FFB-F387-418A-9EB0-EE7FB083DAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Extention", "Redis.Extention\Redis.Extention.csproj", "{A91D0A0F-DBD9-4989-8E88-470100128FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Extention", "RabbitMQ.Extention\RabbitMQ.Extention.csproj", "{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{198D8FFB-F387-418A-9EB0-EE7FB083DAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198D8FFB-F387-418A-9EB0-EE7FB083DAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198D8FFB-F387-418A-9EB0-EE7FB083DAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91D0A0F-DBD9-4989-8E88-470100128FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91D0A0F-DBD9-4989-8E88-470100128FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91D0A0F-DBD9-4989-8E88-470100128FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91D0A0F-DBD9-4989-8E88-470100128FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
