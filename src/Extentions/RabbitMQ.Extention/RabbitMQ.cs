@@ -232,17 +232,20 @@ namespace RabbitMQ.Extention
 
         private RabbitMQConnect GetConnect()
         {
-            int index;
+            int index = 0;
 
             int minChanl = int.MaxValue;
-            for (index = 0; index < rabbitMQConnects.Count; index++)
+            for (int i = 0; i < rabbitMQConnects.Count; i++)
             {
-                var con = rabbitMQConnects[index];
+                index = i;
+                var con = rabbitMQConnects[i];
+
                 if (minChanl > con.SemaphoreSlim.CurrentCount)
                 {
                     minChanl = con.SemaphoreSlim.CurrentCount;
                 }
             }
+
             if (!rabbitMQConnects[index].Connection.IsOpen)
             {
                 lock (_objLock)

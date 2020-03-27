@@ -10,7 +10,7 @@ namespace RabbitMQ.Extention
     {
         private readonly RabbitMQConnect _rabbitMQConnect;
 
-        public IModel IChannl { get; set; }
+        public IModel IChannl { get; private set; }
         public RabbitMQChanl(RabbitMQConnect rabbitMQConnect)
         {
             _rabbitMQConnect = rabbitMQConnect;
@@ -20,6 +20,8 @@ namespace RabbitMQ.Extention
 
         public void Dispose()
         {
+            if (IChannl != null)
+                IChannl.Dispose();
             _rabbitMQConnect.SemaphoreSlim.Release();
 
         }
