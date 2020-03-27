@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refit.Extention", "Refit.Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Extention", "Redis.Extention\Redis.Extention.csproj", "{A91D0A0F-DBD9-4989-8E88-470100128FC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Extention", "RabbitMQ.Extention\RabbitMQ.Extention.csproj", "{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Extention", "RabbitMQ.Extention\RabbitMQ.Extention.csproj", "{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B3AD8D6-3FAB-4CAE-A1EB-EF349BC47CA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

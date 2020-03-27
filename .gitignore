@@ -8,3 +8,6 @@
 /Extentions/.vs/Extentions/v16
 /src/Extentions/.vs/Extentions/v16/Server/sqlite3
 /src/Extentions/Refit.Extention/obj
+/src/Extentions/RabbitMQ.Extention/obj
+/src/Extentions/RabbitMQ.Extention/bin
+/src/Extentions/Redis.Extention/obj/Release/netstandard2.0
