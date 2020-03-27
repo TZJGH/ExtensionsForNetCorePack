@@ -35,26 +35,26 @@ namespace RabbitMQ.Extention
 
             _connectionFactory = new ConnectionFactory();
 
-            var rabbitSection = configuration.GetSection("Rabbit");
+            var rabbitSection = configuration.GetSection("RabbitMQ");
 
             var maxConnectSection = rabbitSection.GetSection("MaxConnect");
             if (maxConnectSection != null)
                 MaxConnect = int.Parse(maxConnectSection.Value);
 
-            _connectionFactory.Uri = new Uri(configuration["url"]);
+            _connectionFactory.Uri = new Uri(rabbitSection["url"]);
 
             var HeartbeatSection = rabbitSection.GetSection("Heartbeat");
-            if (HeartbeatSection != null)
+            if (HeartbeatSection.Value != null)
                 _connectionFactory.RequestedHeartbeat = ushort.Parse(HeartbeatSection.Value);
 
             var RecoveryIntervalSection = rabbitSection.GetSection("RecoveryIntervalRecoveryInterval");
-            if (RecoveryIntervalSection != null)
+            if (RecoveryIntervalSection.Value != null)
                 _connectionFactory.NetworkRecoveryInterval = TimeSpan.Parse(RecoveryIntervalSection.Value);
 
             _connectionFactory.RequestedChannelMax = ushort.Parse(rabbitSection["ChannelMax"]);
 
             var RecoveryEnabledSection = rabbitSection.GetSection("RecoveryEnabled");
-            if (RecoveryEnabledSection != null)
+            if (RecoveryEnabledSection.Value != null)
                 _connectionFactory.AutomaticRecoveryEnabled = bool.Parse(RecoveryEnabledSection.Value);
 
             for (int i = 0; i < MaxConnect; i++)

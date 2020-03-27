@@ -10,7 +10,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class RabbitMQExton
     {
-        public static IServiceCollection AddRabbitMQ(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddRabbitMQ(this IServiceCollection services)
         {
             services.AddSingleton<IRabbitMQ, RabbitMQ.Extention.RabbitMQ>();
             return services;
