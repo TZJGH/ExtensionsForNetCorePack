@@ -7,6 +7,8 @@ using System.Threading;
 using System.Linq;
 using RabbitMQ.Client.Events;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
+
 
 namespace RabbitMQ.Extention
 {
@@ -59,6 +61,9 @@ namespace RabbitMQ.Extention
             {
                 rabbitMQConnects.Add(CreateConnect());
             }
+
+
+            Task.Run(AutoGC);
 
         }
 
@@ -286,6 +291,10 @@ namespace RabbitMQ.Extention
                             GCConnets.Enqueue(conn);
                         else
                             conn.Dispose();
+                    }
+                    else
+                    {
+                        conn.Dispose();
                     }
                 }
                 catch (Exception ex)
