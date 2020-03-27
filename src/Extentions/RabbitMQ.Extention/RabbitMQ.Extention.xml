@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RabbitMQ.Extention</name>
+    </assembly>
+    <members>
+        <member name="M:RabbitMQ.Extention.IRabbitMQ.Publisher(System.String,System.String,System.String,System.String,System.Byte[],System.Boolean,System.String)">
+            <summary>
+            发布消息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="message">消息内容</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <param name="mimeType">MIMETYPE类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:RabbitMQ.Extention.IRabbitMQ.Receiver(System.String,System.String,System.String,System.String,System.Action{System.Object,RabbitMQ.Client.Events.BasicDeliverEventArgs,RabbitMQ.Client.IModel},System.Boolean)">
+            <summary>
+            订阅获取
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="hander">处理方法</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+        </member>
+        <member name="M:RabbitMQ.Extention.IRabbitMQ.GetMessage(System.String,System.String,System.String,System.String,System.Action{RabbitMQ.Client.BasicGetResult,RabbitMQ.Client.IModel},System.Boolean,System.Boolean)">
+            <summary>
+            获取信息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="hander">处理方法</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <param name="autoAck">自动接受，true自动，false不知道</param>
+        </member>
+        <member name="M:RabbitMQ.Extention.IRabbitMQ.GetMessage(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            获取信息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <returns></returns>
+        </member>
+        <member name="M:RabbitMQ.Extention.RabbitMQ.Publisher(System.String,System.String,System.String,System.String,System.Byte[],System.Boolean,System.String)">
+            <summary>
+            发布消息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="message">消息内容</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <param name="mimeType">MIMETYPE类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:RabbitMQ.Extention.RabbitMQ.Receiver(System.String,System.String,System.String,System.String,System.Action{System.Object,RabbitMQ.Client.Events.BasicDeliverEventArgs,RabbitMQ.Client.IModel},System.Boolean)">
+            <summary>
+            订阅获取
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="hander">处理方法</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+        </member>
+        <member name="M:RabbitMQ.Extention.RabbitMQ.GetMessage(System.String,System.String,System.String,System.String,System.Action{RabbitMQ.Client.BasicGetResult,RabbitMQ.Client.IModel},System.Boolean,System.Boolean)">
+            <summary>
+            获取信息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="hander">处理方法</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <param name="autoAck">自动接受，true自动，false不知道</param>
+        </member>
+        <member name="M:RabbitMQ.Extention.RabbitMQ.GetMessage(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            获取信息
+            </summary>
+            <param name="exchange">交换器名称</param>
+            <param name="exchangeType">交换器类型</param>
+            <param name="queue">队列名称</param>
+            <param name="key">绑定的键值</param>
+            <param name="durable">是否持久 true持久，false不持久</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
