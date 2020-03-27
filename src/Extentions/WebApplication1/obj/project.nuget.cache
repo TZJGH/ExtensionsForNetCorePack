@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "84ExJMSaK1+HpHM49/9lVX+Y4r4ysvQXPPdRuz9SRsvEdAFsAKDsN8jf6uVVuk0jxSiTSyF5qPUSMcwiMCndfw==",
+  "success": true,
+  "projectFilePath": "E:\\Repos\\TZJGH\\ExtensionsForNetCorePack\\src\\Extentions\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.2\\microsoft.extensions.configuration.3.1.2.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.2\\microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.0\\microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.2\\microsoft.extensions.dependencyinjection.3.1.2.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.2\\microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.logging\\3.1.0\\microsoft.extensions.logging.3.1.0.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "E:\\Nuget\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

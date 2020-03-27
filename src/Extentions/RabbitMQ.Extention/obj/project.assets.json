@@ -803,7 +803,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "restore": {
       "projectUniqueName": "E:\\Repos\\TZJGH\\ExtensionsForNetCorePack\\src\\Extentions\\RabbitMQ.Extention\\RabbitMQ.Extention.csproj",
       "projectName": "RabbitMQ.Extention",

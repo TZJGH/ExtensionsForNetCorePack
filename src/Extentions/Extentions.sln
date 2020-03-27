@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Extention", "Rabbi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B3AD8D6-3FAB-4CAE-A1EB-EF349BC47CA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{205093FF-0BCE-45EF-AD39-CD11B5536B82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +31,16 @@ Global
 		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DCD20C7-BACB-4F97-9256-ED4D43D4522D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205093FF-0BCE-45EF-AD39-CD11B5536B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205093FF-0BCE-45EF-AD39-CD11B5536B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205093FF-0BCE-45EF-AD39-CD11B5536B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205093FF-0BCE-45EF-AD39-CD11B5536B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{205093FF-0BCE-45EF-AD39-CD11B5536B82} = {2B3AD8D6-3FAB-4CAE-A1EB-EF349BC47CA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B30428C-3E95-4CC9-9E39-FA2516984B6B}
