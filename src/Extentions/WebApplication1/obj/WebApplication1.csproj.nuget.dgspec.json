@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\Repos\\TZJGH\\ExtensionsForNetCorePack\\src\\Extentions\\RabbitMQ.Extention\\RabbitMQ.Extention.csproj": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "restore": {
         "projectUniqueName": "E:\\Repos\\TZJGH\\ExtensionsForNetCorePack\\src\\Extentions\\RabbitMQ.Extention\\RabbitMQ.Extention.csproj",
         "projectName": "RabbitMQ.Extention",

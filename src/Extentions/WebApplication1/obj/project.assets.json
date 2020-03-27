@@ -114,7 +114,7 @@
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
-      "RabbitMQ.Extention/1.0.3": {
+      "RabbitMQ.Extention/1.0.4": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -294,7 +294,7 @@
         "rabbitmq.client.nuspec"
       ]
     },
-    "RabbitMQ.Extention/1.0.3": {
+    "RabbitMQ.Extention/1.0.4": {
       "type": "project",
       "path": "../RabbitMQ.Extention/RabbitMQ.Extention.csproj",
       "msbuildProject": "../RabbitMQ.Extention/RabbitMQ.Extention.csproj"
@@ -302,7 +302,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "RabbitMQ.Extention >= 1.0.3"
+      "RabbitMQ.Extention >= 1.0.4"
     ]
   },
   "packageFolders": {

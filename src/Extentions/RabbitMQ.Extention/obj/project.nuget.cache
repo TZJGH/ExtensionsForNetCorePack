@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GZgrlFzhi4g9P5CLuftufvkVFOMLOK5pb6KBI3Iqg1wrwz5wUOgSAJ5Ho0LOVfBUgdEi7gpg2kvRx4pqEDqqiQ==",
+  "dgSpecHash": "0ZrZ8ZMvJ4e4xnjpYDDtW++BCArZgCMsEjdUeOOWPcsirc1MTqA0kZEIiCpxg927Mj20NQLsmK9HY9OjKuXH3w==",
   "success": true,
   "projectFilePath": "E:\\Repos\\TZJGH\\ExtensionsForNetCorePack\\src\\Extentions\\RabbitMQ.Extention\\RabbitMQ.Extention.csproj",
   "expectedPackageFiles": [
