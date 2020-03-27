@@ -267,6 +267,35 @@ namespace RabbitMQ.Extention
             return conn;
         }
 
+        private void AutoGC()
+        {
+            while (GCConnets.Count > 0)
+            {
+                Thread.Sleep(60 * 1000);
+                try
+                {
+                    var conn = GCConnets.Dequeue();
+                    if (conn.SemaphoreSlim.CurrentCount > 0)
+                    {
+                        GCConnets.Enqueue(conn);
+                    }
+                    else if (conn.Connection.IsOpen)
+                    {
+                        Thread.Sleep(10 * 60 * 1000);
+                        if (conn.SemaphoreSlim.CurrentCount > 0)
+                            GCConnets.Enqueue(conn);
+                        else
+                            conn.Dispose();
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                    _logger.LogError(ex.ToString());
+                }
+            }
+        }
+
         private void Connection_RecoverySucceeded(object sender, EventArgs e)
         {
             _logger.LogInformation("重连成功！", sender, e);
