@@ -19,6 +19,8 @@ namespace RabbitMQ.Extention
 
         private readonly ILogger<RabbitMQ> _logger;
 
+        private readonly Queue<RabbitMQConnect> GCConnets = new Queue<RabbitMQConnect>();
+
         private readonly int MaxConnect = 1;
 
         private readonly object _objLock = new object();
@@ -241,7 +243,11 @@ namespace RabbitMQ.Extention
                 lock (_objLock)
                 {
                     if (!rabbitMQConnects[index].Connection.IsOpen)
+                    {
+                        GCConnets.Enqueue(rabbitMQConnects[index]);
                         rabbitMQConnects[index] = CreateConnect();
+                    }
+
                 }
             }
 
